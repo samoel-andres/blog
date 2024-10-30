@@ -6,7 +6,23 @@ Este proyecto es la simulación de un blog de usuarios donde se pueden compartir
 
 ### :pencil: ¿Que es AdminLTE?
 
-Este es un framework que proporciona plantillas para la administración de paneles de control para aplicaciones.
+Este es un framework que proporciona plantillas para la administración de paneles de control para aplicaciones, además, permite realizar los cambios que queramos en los estilos de las interfaces para que sea personalizado a nuestro gusto.
 
 ## :hammer: Estructura del proyecto
+
+Por defecto Laravel funciona con el patrón de arquitectura MVC (Modelo-Vista-Controlador), seguir esta arquitectura ayuda a construir aplicaciones escalables y facilita el mantenimiento de la misma. Como se puede ver, el framework crea por defecto varias carpetas y archivos que son importantes para el funcionamiento de la aplicacion, sin embargo, las carpetas que almacenan los archivos del blog son:
+
+> app/*
+
+> config/*
+
+> database/*
+
+> resources/*
+
+> routes/*
+
+En cada una de estas se almacenan controladores, vistas, configuraciones entre otros archivos de vital importancia para el funcionamiento del proyecto.
+
+## :package: Resultados
 
