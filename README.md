@@ -64,7 +64,7 @@ De manera breve, el usuario tiene un perfil que puede personalizar y agregar alg
     <img src="https://raw.githubusercontent.com/samoel-andres/blog/master/public/evidence/edit_profile.JPG" alt="Editar detalles del perfil de usuario">
 </p>
 
-Para finalizar, a cada usuario se le proporciona un panel de control o dashboard desde el cual puede gestionar sus artículos publicados, comentarios realizados/recibidos, entre otras actividades. Recordemos que los usuarios pueden recibir un rol determinado, por lo cual, también las actividades de gestión pueden variar en funcion del rol que tenga.
+Para finalizar, a cada usuario se le proporciona un panel de control o dashboard desde el cual puede gestionar sus artículos publicados, comentarios realizados/recibidos, entre otras actividades.
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/samoel-andres/blog/master/public/evidence/dashboard.JPG" alt="Crear cuenta">
