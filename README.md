@@ -1,4 +1,6 @@
-<h1 align="left" width="100%"> :blue_book: BLOG <img align="right" src="https://skillicons.dev/icons?i=vscode,laravel,php,bootstrap,html,css,mysql,github,git" height="37" alt="Tecnologias"> </h1>
+<h1 align="left" width="100%"> :blue_book: BLOG </h1>
+
+<br><img align="left" src="https://skillicons.dev/icons?i=vscode,laravel,php,bootstrap,html,css,mysql,github,git" height="37" alt="Tecnologias"><br><br>
 
 ## :pen: Acerca de este proyecto
 
