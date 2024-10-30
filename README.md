@@ -28,3 +28,44 @@ En cada una de estas se almacenan controladores, vistas, configuraciones entre o
 
 ## :package: Resultados
 
+Al acceder al blog se muestra una pantalla donde el usuario debe iniciar sesión, en caso de que no tenga una cuenta, puede crearse una.
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/samoel-andres/blog/master/public/evidence/login.JPG" alt="Login del sitio">
+</p>
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/samoel-andres/blog/master/public/evidence/create_account.JPG" alt="Crear cuenta">
+</p>
+
+Una vez que el usuario accede, la primer impresión que tiene es el inicio/home, en el cual se muestran todos los articulos divididos en secciones.
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/samoel-andres/blog/master/public/evidence/home_page.JPG" alt="Pagina de inicio/home">
+</p>
+
+Cuando el usuario pulsa sobre algún artículo se le redirige a la página de detalles del mismo en el cual puede leer más detalles, ver o hacer comentarios.
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/samoel-andres/blog/master/public/evidence/article_part_1.JPG" alt="Detalles del articulo parte 1">
+</p>
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/samoel-andres/blog/master/public/evidence/article_part_2.JPG" alt="Detalles del articulo parte 2">
+</p>
+
+De manera breve, el usuario tiene un perfil que puede personalizar y agregar algunos detalles sobre él.
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/samoel-andres/blog/master/public/evidence/profile_details.JPG" alt="Detalles de perfil de usuario">
+</p>
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/samoel-andres/blog/master/public/evidence/edit_profile.JPG" alt="Editar detalles del perfil de usuario">
+</p>
+
+Para finalizar, a cada usuario se le proporciona un panel de control o dashboard desde el cual puede gestionar sus artículos publicados, comentarios realizados/recibidos, entre otras actividades. Recordemos que los usuarios pueden recibir un rol determinado, por lo cual, también las actividades de gestión pueden variar en funcion del rol que tenga.
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/samoel-andres/blog/master/public/evidence/dashboard.JPG" alt="Crear cuenta">
+</p>
