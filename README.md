@@ -72,4 +72,4 @@ Para finalizar, a cada usuario se le proporciona un panel de control o dashboard
 
 ## :pen: Conclusión
 
-Cada día sigo aprendiendo cosas nuevas, durante este proyecto he podido comprender aún mas la importancia de los permisos de usuario dentro de un sistema. Este es un proyecto que he realizado por mi cuenta para la obtención de un certificado de desarrollo web con Laravel, <a href="https://www.linkedin.com/in/samoel-andres-vidal/overlay/1728024054553/single-media-viewer/?profileId=ACoAAEB6RccBZJrb2iwM_ORM271ejna68_HRC_M">ver certificado</a> en mi LinkedIn
+Cada día sigo aprendiendo cosas nuevas, durante este proyecto he podido comprender aún mas la importancia de los permisos de usuario dentro de un sistema.
