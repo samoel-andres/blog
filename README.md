@@ -4,7 +4,9 @@
 
 ## Descripción
 
-Este es un proyecto básico de un blog desarrollado en **PHP** y **MySQL**, utilizando el patrón de diseño **MVC** (Modelo-Vista-Controlador). El proyecto permite la creación, lectura, actualización y eliminación (CRUD) de publicaciones.
+Este es un proyecto básico de un blog desarrollado en **Laravel (PHP)** y **MySQL**, utilizando el patrón de diseño **MVC** (Modelo-Vista-Controlador). El proyecto permite la creación, lectura, actualización y eliminación (CRUD) de publicaciones.
+
+![Interfaz inicial del proyecto](public/evidence/login.JPG)
 
 ## Características
 
