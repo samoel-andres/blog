@@ -1,75 +1,62 @@
-<h1 align="left" width="100%"> :blue_book: BLOG </h1>
+# Blog
 
 <br><img align="left" src="https://skillicons.dev/icons?i=vscode,laravel,php,bootstrap,html,css,mysql,github,git" height="37" alt="Tecnologias"><br><br>
 
-## :pen: Acerca de este proyecto
+# Descripción
 
-Este proyecto es la simulación de un blog de usuarios donde se pueden compartir artículos, otros usuarios pueden verlos y realizar comentarios acerca del artículo en cuestión. En este caso, por medio del uso de permisos de usuario, cada uno puede recibir una asignación, dependiendo del permiso puede o no realizar acciones especificas en la plataforma. Para cada usuario existe un panel de administración en el que puede administrar sus artículos, comentarios recibidos/realizados, etc. Para este desarrollo he usado Laravel (PHP), Bootstrap, MySQL y AdminLTE.
+Este es un proyecto básico de un blog desarrollado en **PHP** y **MySQL**, utilizando el patrón de diseño **MVC** (Modelo-Vista-Controlador). El proyecto permite la creación, lectura, actualización y eliminación (CRUD) de publicaciones.
 
-### :pencil: ¿Que es AdminLTE?
+## Características
 
-Este es un framework que proporciona plantillas para la administración de paneles de control para aplicaciones, además, permite realizar los cambios que queramos en los estilos de las interfaces para que sea personalizado a nuestro gusto.
+- **Gestión de publicaciones**: Crear, editar y eliminar artículos del blog.
+- **Patrón MVC**: Separación de responsabilidades en Modelo, Vista y Controlador.
+- **Base de datos MySQL**: Integración con una base de datos relacional para almacenar información.
+- **Frontend básico**: Diseño simple y funcional para interactuar con el blog.
 
-## :hammer: Estructura del proyecto
+## Requisitos previos
 
-Por defecto Laravel funciona con el patrón de arquitectura MVC (Modelo-Vista-Controlador), seguir esta arquitectura ayuda a construir aplicaciones escalables y facilita el mantenimiento de la misma. Como se puede ver, el framework crea por defecto varias carpetas y archivos que son importantes para el funcionamiento de la aplicacion, sin embargo, las carpetas que almacenan los archivos del blog son:
+Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
-> app/*
+- **PHP** >= 7.4
+- **Composer** para la gestión de dependencias
+- **Servidor web** (Apache, Nginx, etc.)
+- **MySQL** o cualquier base de datos compatible con el proyecto
 
-> config/*
+## Instalación
 
-> database/*
+Sigue estos pasos para configurar el proyecto:
 
-> resources/*
+1. Clona el repositorio en tu máquina local:
 
-> routes/*
+   ```bash
+   git clone https://github.com/samoel-andres/blog.git
+   cd blog
+   ```
 
-En cada una de estas se almacenan controladores, vistas, configuraciones entre otros archivos de vital importancia para el funcionamiento del proyecto.
+2. Configura el archivo `.env` para establecer las credenciales de tu base de datos:
 
-## :package: Resultados
+   ```env
+   DB_HOST=localhost
+   DB_NAME=nombre_base_datos
+   DB_USER=usuario
+   DB_PASSWORD=contraseña
+   ```
 
-Al acceder al blog se muestra una pantalla donde el usuario debe iniciar sesión, en caso de que no tenga una cuenta, puede crearse una.
+3. Inicia el servidor web y accede al proyecto desde tu navegador.
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/samoel-andres/blog/master/public/evidence/login.JPG" alt="Login del sitio">
-</p>
+   ```bash
+   Accede a http://localhost/blog
+   ```
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/samoel-andres/blog/master/public/evidence/create_account.JPG" alt="Crear cuenta">
-</p>
+## Uso
 
-Una vez que el usuario accede, la primer impresión que tiene es el inicio/home, en el cual se muestran todos los articulos divididos en secciones.
+1. Navega a la URL donde está alojado el proyecto.
+2. Interactúa con el blog para crear, leer, actualizar y eliminar publicaciones.
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/samoel-andres/blog/master/public/evidence/home_page.JPG" alt="Pagina de inicio/home">
-</p>
+## Estructura del proyecto
 
-Cuando el usuario pulsa sobre algún artículo se le redirige a la página de detalles del mismo en el cual puede leer más detalles, ver o hacer comentarios.
+El proyecto sigue la estructura básica del patrón MVC:
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/samoel-andres/blog/master/public/evidence/article_part_1.JPG" alt="Detalles del articulo parte 1">
-</p>
-
-<p align="center">
-    <img src="https://raw.githubusercontent.com/samoel-andres/blog/master/public/evidence/article_part_2.JPG" alt="Detalles del articulo parte 2">
-</p>
-
-De manera breve, el usuario tiene un perfil que puede personalizar y agregar algunos detalles sobre él.
-
-<p align="center">
-    <img src="https://raw.githubusercontent.com/samoel-andres/blog/master/public/evidence/profile_details.JPG" alt="Detalles de perfil de usuario">
-</p>
-
-<p align="center">
-    <img src="https://raw.githubusercontent.com/samoel-andres/blog/master/public/evidence/edit_profile.JPG" alt="Editar detalles del perfil de usuario">
-</p>
-
-Para finalizar, a cada usuario se le proporciona un panel de control o dashboard desde el cual puede gestionar sus artículos publicados, comentarios realizados/recibidos, entre otras actividades.
-
-<p align="center">
-    <img src="https://raw.githubusercontent.com/samoel-andres/blog/master/public/evidence/dashboard.JPG" alt="Crear cuenta">
-</p>
-
-## :pen: Conclusión
-
-Cada día sigo aprendiendo cosas nuevas, durante este proyecto he podido comprender aún mas la importancia de los permisos de usuario dentro de un sistema.
+- **Modelos**: Contienen la lógica de negocio y la interacción con la base de datos.
+- **Vistas**: Se encargan de la interfaz de usuario y muestran la información.
+- **Controladores**: Manejan las solicitudes del usuario y actualizan los modelos y las vistas.
