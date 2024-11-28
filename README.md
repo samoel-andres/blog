@@ -2,7 +2,7 @@
 
 <br><img align="left" src="https://skillicons.dev/icons?i=vscode,laravel,php,bootstrap,html,css,mysql,github,git" height="37" alt="Tecnologias"><br><br>
 
-# Descripción
+## Descripción
 
 Este es un proyecto básico de un blog desarrollado en **PHP** y **MySQL**, utilizando el patrón de diseño **MVC** (Modelo-Vista-Controlador). El proyecto permite la creación, lectura, actualización y eliminación (CRUD) de publicaciones.
 
